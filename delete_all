@@ -1,0 +1,14 @@
+#!/bin/bash
+
+sudo docker stop Ubuntu18_1
+sudo docker stop Ubuntu18_2
+sudo docker stop Ubuntu20_1
+sudo docker stop Ubuntu20_2
+sudo docker stop Centos7_1
+sudo docker stop Centos7_2
+sudo docker stop Centos8_1
+sudo docker stop Centos8_2
+sudo docker network rm ubuntu18_net
+sudo docker network rm ubuntu20_net
+sudo docker network rm centos7_net
+sudo docker network rm centos8_net
